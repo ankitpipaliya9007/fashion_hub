@@ -1,0 +1,104 @@
+/* header section */
+
+#header{
+    /* background-color: rgb(158, 158, 158); */
+    padding: 10px;
+        clear: both;
+        height: 70px;
+        /* position: fixed; */
+    }
+    
+    .header__NavLogo{
+        float: left;
+        width: 50px;
+        display: flex;
+    }
+    
+    .header__SearchCart{
+        float: right;
+        /* padding: 30px;    */
+        width: 150px;
+        display: flex;
+    }
+    
+    .header__NavLogo--nav-navimg{
+        width: 30px;
+        margin: 15px;
+    }
+    
+    .header__NavLogo--logo-logoimg{
+        width: 100px;
+        height: 40px;
+        margin: 10px;
+    }
+    
+    .header__SearchCart--search-searchimg{
+        width: 30px;
+        margin: 15px;  
+    }
+    
+    .header__SearchCart--cart-cartimg{
+        width: 30px;
+        margin: 15px;  
+    }
+    
+    /* slidebar */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        display: flex;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+    
+      .mr-top{
+          margin-top: 160px;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        z-index: 1;
+        color: #111;
+      }
+    
+      .li_itemsFirst{
+          background-color: gray;
+          height: 175px;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+      }
+      
+      .li_itemsFirst-img{
+          position: absolute;
+          z-index: 1;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100px;
+          height: 70px;
+      }
